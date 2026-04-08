@@ -1,0 +1,12 @@
+647
+39
+Rule: DAI93865 -> FRO40251, Confidence: 1.0000, Support: 208
+Rule: GRO85051 -> FRO40251, Confidence: 0.9992, Support: 1213
+Rule: GRO38636 -> FRO40251, Confidence: 0.9907, Support: 106
+Rule: ELE12951 -> FRO40251, Confidence: 0.9906, Support: 105
+Rule: DAI88079 -> FRO40251, Confidence: 0.9867, Support: 446
+Rule: FRO92469 -> FRO40251, Confidence: 0.9835, Support: 835
+Rule: DAI43868 -> SNA82528, Confidence: 0.9730, Support: 288
+Rule: DAI23334 -> DAI62779, Confidence: 0.9545, Support: 273
+Rule: ELE92920 -> DAI62779, Confidence: 0.7327, Support: 877
+Rule: DAI53152 -> FRO40251, Confidence: 0.7179, Support: 140

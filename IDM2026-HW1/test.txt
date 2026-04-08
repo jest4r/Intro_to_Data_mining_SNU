@@ -1,0 +1,10 @@
+t1 the quick brown fox jumps over the lazy dog dont you
+t2 The quick brown fox jumps over the lazy doggg ha you are stupid!!!
+t3 the quick  brown fox jumps over  the lazy dog
+t4 the quick brown fox jumps over the dog
+t5 lorem ipsum dolor sit amet
+t6 lorem ipsum dolor sit amett 
+t7 lorem ipsum   dolor sit amet
+t8 lorem-ipsum dolor sit amet
+t9  abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+t10 abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxYY

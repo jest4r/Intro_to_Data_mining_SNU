@@ -1,0 +1,26 @@
+Suppose we have 2 case for A-priori
+
+Case 1: triangular-matrix
+Neglect: the space need to translate original item names -> intergers
+
+We have N frequent items => we have N*(N-1)/2 candidate pairs
+
+So the total size for this method is 4*N*(N-1)/2 = 2*N*(N-1)
+
+
+Case 2: Triple
+Neglect: the hash table space
+
+We have exacly 1000000 pairs that is frequent (occurs more than the support threshold 10000)
+Also we have M pairs contains the items that are both frequent (following the assumptions)
+
+So we have total M + 10000000 candidate pairs
+
+From that the total size for this method is 12*(M + 10000000) (12 is 4 bytes per triples)
+
+From case 1 and case 2, and the initial size need for first pass is 1000000*4 = 4000000 bytes
+we conclude that the minimun size for the main memory to execute A-priori for the problem is
+
+4000000 + Min(2*N*(N-1); 12*(M+1000000)) bytes
+
+Elapsed time for part 2: 2.0531 seconds

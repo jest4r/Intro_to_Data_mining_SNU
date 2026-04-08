@@ -1,0 +1,35 @@
+Let s be the Jaccard similarity of  the 2 sets. 
+
+For a minhash family, the probability that one hash function gives the same value for the two sets is exactly s.
+
+We have:
+- A r-way AND operations gives us s^r probability
+- A b-way OR operations gives us 1-(1-s)^b probability
+
+From that:
+
+a) 2-way AND construction followed by a 3-way OR operations:
+
+2-way AND gives us s^2 then followed by 3-way OR gives us 1-(1-p)^3 with p = s^2
+
+result: 1-(1-s^2)^3
+
+b) 3-way OR construction followed by a 2-way AND operations:
+
+3-way OR gives us 1-(1-s)^3, then followed by a 2-way AND gives us p^2 with p = 1-(1-s)^3
+
+result: (1-(1-s^3))^2
+
+c) 2-way AND construction followed by 2-way OR operations, followed by 2-way AND operations
+
+2-way AND gives us s^2, then followed by a 2-way OR gives us 1-(1-s^2)^2, and then
+followed by a 2-way AND gives us (1-(1-s^2)^2)^2
+
+result: (1-(1-s^2)^2)^2
+
+d) 2-way OR construction followed by 2-way AND operations, followed by 2-way OR operations, followed by 2-way AND operations
+
+2-way OR gives us 1-(1-s)^2, followed by a 2-way AND gives us (1-(1-s)^2)^2, followed by 
+a 2-way OR gives us 1-(1-(1-(1-s)^2)^2)^2, and then followed by a 2-way AND gives us (1-(1-(1-(1-s)^2)^2)^2)^2 
+
+result: (1-(1-(1-(1-s)^2)^2)^2)^2 
